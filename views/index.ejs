@@ -1,92 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>sit722-2023-t2-glossary</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <div class="content">
-    <h1 class="title">SIT722 DevOps Glossary</h1>
-    <span class="sub-title">Welcome to my website showing a collection of DevOps terms and their brief description</span>
+
+<head>
+  <title>sit722-2023-t2-glossary</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+  <div class="content">
+  <h1 class="title">SIT722 DevOps Glossary</h1>
+  <span class="sub-title">Welcome to my website showing a collection of DevOps terms and their brief description</span>
 
     <table>
       <tr>
-          <th>ID#</th>
-          <th>Term</th>
-          <th>Description</th>
-          <th>References</th>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
       </tr>
-      <tr>
-          <td>1</td>
-          <td>DevOps</td>
-          <td>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle and deliver features, fixes, and updates frequently and reliably.</td>
-          <td>Wikipedia Contributors, “DevOps,” Wikipedia, Dec. 01, 2019. https://en.wikipedia.org/wiki/DevOps
-            ‌</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Continuous Integration (CI)</td>
-          <td>Continuous Integration is the practice of frequently merging code changes into a shared repository. It allows teams to detect and address integration issues early in the development process.</td>
-          <td>Atlassian, “What is Continuous Integration | Atlassian,” Atlassian, 2019. https://www.atlassian.com/continuous-delivery/continuous-integration
-            ‌</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>Continuous Deployment (CD)</td>
-          <td>Continuous Deployment is the practice of automatically deploying code changes to production after passing through the CI process. It aims to deliver new features and bug fixes rapidly and safely.</td>
-          <td>Redhat, “What is CI/CD?,” Redhat.com, 2019. https://www.redhat.com/en/topics/devops/what-is-ci-cd
-            ‌</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Infrastructure as Code (IaC)</td>
-        <td>Infrastructure as Code is an approach to manage and provision IT infrastructure through code, using version-controlled templates and automation tools to ensure consistency and reproducibility.</td>
-        <td>HashiCorp, “What is infrastructure as code and why is it important?,” HashiCorp. https://www.hashicorp.com/resources/what-is-infrastructure-as-code
-          ‌</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Microservices</td>
-      <td>Microservices is an architectural style where a complex application is broken down into small, independent, and loosely coupled services, each serving a specific business capability.</td>
-      <td>C. Richardson, “Microservices.io,” microservices.io, 2017. https://microservices.io/
-        ‌</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Kubernetes</td>
-    <td>Kubernetes is an open-source container orchestration platform used for automating the deployment, scaling, and management of containerized applications.</td>
-    <td>“Overview,” Kubernetes. https://kubernetes.io/docs/concepts/overview/
-      ‌</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td>Docker</td>
-  <td>Docker is a platform that enables developers to package applications and their dependencies into containers, providing a consistent environment for development and deployment.</td>
-  <td>Docker, “What is a Container?,” Docker. https://www.docker.com/resources/what-container/
-    ‌</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td>Version Control</td>
-  <td>Version Control is a system that records changes to files over time, enabling multiple developers to collaborate on a project, track modifications, and roll back to previous states if needed. It ensures code integrity and facilitates team collaboration.</td>
-  <td>Atlassian, “What is version control,” Atlassian, 2019. https://www.atlassian.com/git/tutorials/what-is-version-control
-    ‌</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td>Agile</td>
-  <td>Agile is a project management and software development approach that prioritizes customer collaboration, iterative development, and responding to change. It emphasizes delivering functional software in smaller increments, increasing adaptability and customer satisfaction.</td>
-  <td>Atlassian, “Agile best practices and tutorials | Atlassian,” Atlassian, 2019. https://www.atlassian.com/agile
-    ‌</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td>Test-Driven Development (TDD)</td>
-  <td>Test-Driven Development is a software development technique where tests are written before the code is implemented. The development process revolves around writing code to pass the tests, ensuring better test coverage and more robust software.</td>
-  <td>“What is Test Driven Development (TDD)?,” Agile Alliance, Feb. 15, 2018. https://www.agilealliance.org/glossary/tdd/
-    ‌</td>
-</tr>
-  </table>
-</div>
-  </body>
+      <% data.forEach((item)=> {%>
+        <tr>
+          <td>
+            <%= item.id %>
+          </td>
+          <td>
+            <%= item.term %>
+          </td>
+          <td>
+            <%= item.description %>
+          </td> 
+          <td>
+            <%= item.references %>
+          </td>
+        </tr>
+        <% }) %>
+    </table>
+  </div>
+</body>
+
 </html>
