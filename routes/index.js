@@ -121,6 +121,66 @@ const glossaryInformation = [
     term:"Trunk-Based Development",
     references:"Atlassian, “Trunk-based Development,” Atlassian. https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development"
   },
+  {
+    id:21,
+    description:"Docker Image is an executable package of software that includes everything needed to run an application. This image informs how a container should instantiate, determining which software components will run and how.",
+    term:"dockerimage",
+    references:"“What is Docker Images?,” GeeksforGeeks, Oct. 10, 2021. https://www.geeksforgeeks.org/what-is-docker-images/"
+  },
+  {
+    id:22,
+    description:"A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.",
+    term:"dockercontainer",
+    references:"Docker, “What is a Container?,” Docker, 2023. https://www.docker.com/resources/what-container/"
+  },
+  {
+    id:23,
+    description:"Dockerfile consists of specific commands that guide you on how to build a specific Docker image.The specific commands you can use in a dockerfile are: FROM, PULL, RUN, and CMD",
+    term:"dockerfile",
+    references:"“What is a Dockerfile: A Step-by-Step Guide [2022 Updated],” Simplilearn.com. https://www.simplilearn.com/tutorials/docker-tutorial/what-is-dockerfile"
+  },
+  {
+    id:24,
+    description:"The Alpine DOI is a building block for Alpine Linux Docker containers. It’s an executable software package that tells Docker and your application how to behave. The image includes source code, libraries, tools, and other core dependencies that your application needs.",
+    term:"alpine",
+    references:"“How to Use the Alpine Docker Official Image | Docker,” www.docker.com, Sep. 08, 2022. https://www.docker.com/blog/how-to-use-the-alpine-docker-official-image/ (accessed Sep. 03, 2023)."
+  },
+  {
+    id:25,
+    description:"This page contains the download URL, information about system requirements, and instructions on how to install Docker Desktop for Windows.",
+    term:"docker for windows",
+    references:"“Install on Windows,” Docker Documentation, Jan. 12, 2023. https://docs.docker.com/desktop/install/windows-install/"
+  },
+  {
+    id:26,
+    description:"A Dockerfile and a context are used by the docker build command to create Docker images. The collection of files in the given path or url make up the context of a build.",
+    term:"dockerbuild",
+    references:"“docker build,” Docker Documentation, Nov. 15, 2019. https://docs.docker.com/engine/reference/commandline/build/"
+  },
+  {
+    id:27,
+    description:"The default docker images will show all top level images, their repository and tags, and their size.",
+    term:"dockerimage",
+    references:"“docker images,” Docker Documentation, May 08, 2019. https://docs.docker.com/engine/reference/commandline/images/"
+  },
+  {
+    id:28,
+    description:"Use docker image push to share your images to the Docker Hubopen_in_new registry or to a self-hosted one.",
+    term:"dockerpush",
+    references:"“docker push,” Docker Documentation, Aug. 16, 2023. https://docs.docker.com/engine/reference/commandline/push/"
+  },
+  {
+    id:29,
+    description:"These are list of available docker commands in this website",
+    term:"docker commands",
+    references:"“Use the Docker command line,” Docker Documentation, Nov. 15, 2019. https://docs.docker.com/engine/reference/commandline/cli/"
+  },
+  {
+    id:30,
+    description:"The Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images. ",
+    term:"container registry",
+    references:"“Docker Registry,” Docker Documentation, Apr. 23, 2021. https://docs.docker.com/registry/"
+  },
 ]
 /* GET home page. */
 router.get('/', function(req, res, next) {
