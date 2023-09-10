@@ -225,9 +225,9 @@ const glossaryInformation = [
   },
   {
     id:38,
-    description:"Single-recipient messages are one-to-one : a message is sent from one microservice and received by only a single other. This is a great way of making sure that a particular job is done only once within your application.",
-    term:"Single recipient indirect messaging",
-    references:"“Chapter 132: 5.8.6 Single-recipient indirect messaging - Bootstrapping Microservices with Docker, Kubernetes, and Terraform: A project-based guide,” zoboko.com. https://zoboko.com/text/y53r6lpp/bootstrapping-microservices-with-docker-kubernetes-and-terraform-a-project-based-guide/132 (accessed Sep. 10, 2023)."
+    description:"Terraform is a popular infrastructure-as-code tool that allows you to automate the provisioning and management of infrastructure resources. It uses configuration files written in the HashiCorp Configuration Language (HCL) to define the desired state of your infrastructure, and it uses various commands to apply those configurations and manage your infrastructure resources",
+    term:"Terraform",
+    references:"“What is Terraform?,” GeeksforGeeks, Jan. 03, 2023. https://www.geeksforgeeks.org/what-is-terraform/ (accessed Sep. 10, 2023)."
   },
   {
     id:39,
