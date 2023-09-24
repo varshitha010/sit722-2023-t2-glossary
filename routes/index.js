@@ -241,6 +241,67 @@ const glossaryInformation = [
     term:"db",
     references:"ghogen, “Create a database and add tables - Visual Studio (Windows),” learn.microsoft.com. https://learn.microsoft.com/en-us/visualstudio/data-tools/create-a-sql-database-by-using-a-designer?view=vs-2022"
   },
+  {
+    id:41,
+    description:"The Azure Command-Line Interface (CLI) is a cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources.",
+    term:"azure cli",
+    references:"dbradish-microsoft, “What is the Azure CLI?,” learn.microsoft.com, Aug. 02, 2023. https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli"
+  },
+  {
+    id:42,
+    description:"Evolutionary architecture is an approach to building software that’s designed to evolve over time as business priorities change, customer demands shift, and new technologies emerge.",
+    term:"evolution architechture",
+    references:"“Decoder: Evolutionary architecture,” Thoughtworks. https://www.thoughtworks.com/insights/decoder/e/evolutionary-architecture (accessed Sep. 24, 2023)."
+  },
+  {
+    id:43,
+    description:"When you run terraform apply without passing a saved plan file, Terraform automatically creates a new execution plan as if you had run terraform plan, prompts you to approve that plan, and takes the indicated actions.",
+    term:"terraform apply",
+    references:"“Command: apply | Terraform | HashiCorp Developer,” Command: apply | Terraform | HashiCorp Developer. https://developer.hashicorp.com/terraform/cli/commands/apply (accessed Sep. 24, 2023)."
+  },
+  {
+    id:44,
+    description:"The terraform destroy command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.",
+    term:"terraform destroy",
+    references:"“Command: destroy | Terraform | HashiCorp Developer,” Command: destroy | Terraform | HashiCorp Developer. https://developer.hashicorp.com/terraform/cli/commands/destroy"
+  },
+  {
+    id:45,
+    description:"Azure Resources Groups are logical collections of virtual machines, virtual networks,web apps,storage accounts,databases and database servers",
+    term:"azure resource group",
+    references:"Suthesana, “What is azure resource groups?,” Medium, Aug. 17, 2020. https://suthesana.medium.com/what-is-azure-resource-groups-72f198e8de0 (accessed Sep. 24, 2023)."
+  },
+  {
+    id:46,
+    description:"Terraform init is a command that initializes a working directory containing Terraform configuration files",
+    term:"terraform init",
+    references:"“What Is Terraform Init?,” h-o-m-e.org. https://h-o-m-e.org/terraform-init/ (accessed Sep. 24, 2023)"
+  },
+  {
+    id:47,
+    description:"A container registry is a repository—or collection of repositories—used to store and access container images.",
+    term:"container registry",
+    references:"“What is a container registry?,” www.redhat.com. https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry"
+  },
+  {
+    id:48,
+    description:"Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.",
+    term:"bootstrap",
+    references:"W3Schools, “What is Bootstrap,” W3schools.com, 2019. https://www.w3schools.com/whatis/whatis_bootstrap.asp"
+  },
+  {
+    id:49,
+    description:"A Kubernetes cluster is a set of node machines for running containerized applications",
+    term:"kubernetes cluster",
+    references:"“What is a Kubernetes cluster?,” www.redhat.com. https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster"
+  },
+  {
+    id:50,
+    description:"Authentication is the process by which a cluster software component determines the identity of one of its peers, clients, or an RSCT subcomponent1.",
+    term:"cluster authentication",
+    references:"“Cluster security services authentication concepts,” www.ibm.com. https://www.ibm.com/docs/en/rsct/3.2?topic=concepts-cluster-security-services-authentication (accessed Sep. 24, 2023)."
+  },
+
 ]
 /* GET home page. */
 router.get('/', function(req, res, next) {
